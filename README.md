@@ -1,8 +1,7 @@
-# 🍎 setup
+# Personal MAC Setup
 
-Opinionated notes and scripts for setting up a fresh macOS computer for web development _(Follow at your own risk / benefit)_
-
-> 💡 I also have guides for [Linux](https://github.com/miclgael/setup-linux) and [Windows](https://github.com/miclgael/setup-win)!
+Opinionated notes and scripts for setting up a fresh macOS computer for my personal development flow _(Follow at your own risk / benefit)_
+Originally based on [miclgael's setup](https://github.com/miclgael/setup).
 
 **NB: Requires macOS 11+ (ideally macOS 12+)**
 
@@ -17,7 +16,7 @@ If you just want to run the whole thing in one go, you can use the following com
   <details>
     <summary>Yes, please reveal</summary>
 
-    bash <(curl -s https://raw.githubusercontent.com/miclgael/setup/main/scripts/main.sh)
+    bash <(curl -s https://raw.githubusercontent.com/felixgeissler/setup/main/scripts/main.sh)
 
   </details>
 </details>
