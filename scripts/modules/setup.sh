@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Copyright 2023 Michael Gale <https://www.michaelgale.dev/>
+# Copyright 2023 Felix Geißler <https://www.felixgeissler.de/>
 
 # Original copyright Mathias Bynens <https://mathiasbynens.be/>
 # Original License can be found within the .github folder of this repo @ `.github/LICENSE-MIT.txt`
@@ -36,8 +36,8 @@ brew upgrade
 
 # Set git config values
 info 'Setting git config values'
-git config --global user.name "Michael Gale"
-git config --global user.email "michael@michaelgale.dev"
+git config --global user.name "Felix Geißler"
+git config --global user.email "felix.geissler.94+dev@gmail.com"
 git config --global core.editor "code --wait"
 git config --global init.defaultBranch "main"
 git config --global commit.gpgsign true

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright 2023 Michael Gale <https://www.michaelgale.dev/>
+# Copyright 2023 Felix Geißler <https://www.felixgeissler.de/>
 
 heading 'Running node.sh'
 info 'This script will install NVM and any node.js global packages.'
