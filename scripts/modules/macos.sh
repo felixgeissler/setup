@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Copyright 2023 Michael Gale <https://www.michaelgale.dev/>
+# Copyright 2023 Felix Geißler <https://www.felixgeissler.de/>
 
 # Original copyright Mathias Bynens <https://mathiasbynens.be/>
 # Original License can be found within the .github folder of this repo @ `.github/LICENSE-MIT.txt`
