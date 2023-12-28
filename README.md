@@ -45,29 +45,6 @@ I like to immediately install this, otherwise I forget and then things go haywir
 brew install git-lfs
 ```
 
-### 💤 Install zsh and [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
-
-**Zsh should be installed first!** See [installing zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) or use brew:
-
-```bash
-brew install zsh
-```
-
-(follow the instructions)
-
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-(follow the instructions, again)
-
-Install plugins
-
-```bash
-brew install spaceship zsh-autosuggestions zsh-syntax-highlighting
-``` 
-(no need to follow the instructions if using `./dotfiles/modules/sources.sh`)
-
 ### Configure Git Signing (GNUPG)
 
 This can be an awful process but I found [this](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key) [combination](https://dev.to/wes/how2-using-gpg-on-macos-without-gpgtools-428f) of [solutions](https://gist.github.com/johnwgillis/e32e98846ec6136cb597dab57f0f7166#how-to-setup-gpg-for-signing-commits-with-git-sourcetree-and-github-on-mac) to work well for me.

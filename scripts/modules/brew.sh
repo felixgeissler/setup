@@ -29,26 +29,15 @@ brew install micro
 info 'Installing other useful binaries'
 brew install git git-lfs
 
-# Install Zsh, Oh My Zsh, and Spaceship ZSH theme
-info 'Installing zsh'
-brew install zsh
+# Install fish shell and Oh My Fish
+info 'Installing fish'
+brew install fish
+echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
+# Make fish shell to default shell for Terminal
+chsh -s /usr/local/bin/fish
 
-# Install Oh My Zsh (not from a brew package, but related to the above)
-if [[ $(test -f $HOME/.oh-my-zsh) ]]; then
-  info 'Installing Oh My Zsh ... please follow the prompts...'
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-else
-  warning 'Oh my zsh already installed'
-fi
-
-# Install Spaceship ZSH theme, and other zsh plugins.
-info 'Installing Spaceship ZSH theme, and other zsh plugins'
-brew install spaceship zsh-autosuggestions zsh-syntax-highlighting
-
-# Install GnuPG to enable PGP-signing commits.
-info 'Installing GNUPG and PIN entry for macOS' 
-brew install gnupg pinentry-mac
-warning 'Please note; GNUPG and PIN entry will require manual configuration. \nPlease follow the instructions at https://github.com/miclgael/setup#configure-git-signing-gnupg'
+# Install Oh My Fish
+curl -L https://get.oh-my.fish | fish
 
 # Install Fira Code font
 info 'Installing Fira Code font'

@@ -9,45 +9,19 @@
 defaults write com.apple.dock persistent-apps -array
 
 # Fill the dock with apps in this list, incl. spaces.
-for APP_NAME in "Things3" \
-  "Calendar" \
-  "Obsidian" \
-  "" \
-  "Spark" \
+for APP_NAME in "Messages" \
   "Microsoft Teams" \
   "Microsoft Outlook" \
-  "zoom.us" \
-  "" \
-  "Firefox Developer Edition" \
-  "Firefox" \
-  "LibreWolf" \
+  "Brave" \
   "Google Chrome" \
-  "" \
-  "Reeder" \
-  "Home" \
+  "Firefox Developer Edition" \
   "1Password" \
-  "OBS" \
-  "" \
   "Visual Studio Code" \
-  "iTerm" \
-  "Tower" \
-  "Sourcetree" \
+  "Hyper" \
   "Insomnia" \
   "Tableplus" \
-  "" \
-  "Ableton Live 11 Suite" \
-  "Loopback" \
-  "Vital" \
-  "Plexamp" \
-  "" \
-  "Figma" \
-  "Sketch" \
-  "Nucleo" \
-  "ColorSlurp" \
-  "" \
-  "Discord" \
-  "Signal" \
-  "Messages"; do
+  "Affinity Photo 2" \
+  "Affinity Designer 2"; do
 
 # Add Spacer to the Dock
 if [[ $APP_NAME == "" ]]; then
