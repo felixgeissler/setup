@@ -24,7 +24,10 @@ info '💬 Installing chat and teamwork software'
 brew install --cask microsoft-teams onedrive discord signal nextcloud
 
 info '📝 Installing office tools'
-brew install --cask microsoft-outlook
+brew install --cask microsoft-outlook microsoft-word microsoft-excel
+
+info '🪛 Installing utility tools'
+brew install --cask clipy
 
 # Remove outdated versions from the cellar.
 brew cleanup
