@@ -2,7 +2,7 @@
 # Copyright 2023 Felix Geißler <https://www.felixgeissler.de/>
 
 heading 'Running node.sh'
-info 'This script will install NVM and any node.js global packages.'
+info 'This script will install Volta and any node.js global packages.'
 
 LATEST_NVM=$({
   curl -s https://api.github.com/repos/nvm-sh/nvm/releases | \
