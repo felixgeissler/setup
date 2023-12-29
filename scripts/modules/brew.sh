@@ -34,7 +34,7 @@ info 'Installing fish'
 brew install fish
 echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
 # Make fish shell to default shell for Terminal
-chsh -s /usr/local/bin/fish
+chsh -s /opt/homebrew/bin/fish
 
 # Install Oh My Fish
 curl -L https://get.oh-my.fish | fish
