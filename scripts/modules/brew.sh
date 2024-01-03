@@ -25,6 +25,10 @@ brew install grep openssh php composer jq
 info 'Installing alternative terminal-based editor'
 brew install micro
 
+# Install usefull tools
+info 'Installing usefull tools'
+brew install gh htop telnet wget imagemagick tree ffmpeg 
+
 # Install other useful binaries.
 info 'Installing other useful binaries'
 brew install git git-lfs
@@ -43,6 +47,11 @@ curl -L https://get.oh-my.fish | fish
 info 'Installing Fira Code font'
 brew tap homebrew/cask-fonts && \
 brew install font-fira-code
+
+# Install Jira CLI
+info 'Installing Jira CLI'
+brew tap ankitpokhrel/jira-cli
+brew install jira-cli
 
 # Install google web fonts (also not a brew package... but whatever!)
 if [[ $(test -f /Library/Fonts/Roboto-Black.ttf) ]]; then

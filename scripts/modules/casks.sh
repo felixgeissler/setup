@@ -21,13 +21,16 @@ info '🎨 Installing design software'
 brew install --cask affinity-designer affinity-photo
 
 info '💬 Installing chat and teamwork software'
-brew install --cask microsoft-teams onedrive discord signal nextcloud
+brew install --cask microsoft-teams onedrive google-drive discord signal nextcloud
 
 info '📝 Installing office tools'
-brew install --cask microsoft-outlook microsoft-word microsoft-excel
+brew install --cask microsoft-outlook microsoft-word microsoft-excel sipgate-softphone
 
 info '🪛 Installing utility tools'
-brew install --cask clipy
+brew install --cask clipy logi-options-plus
+
+info '🎧 Installing entertainment software'
+brew install --cask spotify
 
 # Remove outdated versions from the cellar.
 brew cleanup

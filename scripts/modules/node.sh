@@ -12,3 +12,6 @@ volta install node
 
 info 'Installing latest Yarn version'
 volta install yarn
+
+info 'Installing global node packages'
+npm i -g gitmoji-cli
