@@ -53,6 +53,9 @@ info 'Installing Jira CLI'
 brew tap ankitpokhrel/jira-cli
 brew install jira-cli
 
+# Install Boundary & Alemo Connect Dependencies
+brew install hashicorp/tap/boundary fzf jq
+
 # Install google web fonts (also not a brew package... but whatever!)
 if [[ $(test -f /Library/Fonts/Roboto-Black.ttf) ]]; then
   info 'Installing Google web fonts ... this will take some time (approx 5 mins)...'
