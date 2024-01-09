@@ -53,6 +53,9 @@ info 'Installing Jira CLI'
 brew tap ankitpokhrel/jira-cli
 brew install jira-cli
 
+# Install 1Password CLI
+brew install 1password-cli
+
 # Install Boundary & Alemo Connect Dependencies
 brew install hashicorp/tap/boundary fzf jq
 
