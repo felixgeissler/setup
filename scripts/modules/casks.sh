@@ -27,7 +27,7 @@ info '📝 Installing office tools'
 brew install --cask microsoft-outlook microsoft-word microsoft-excel sipgate-softphone
 
 info '🪛 Installing utility tools'
-brew install --cask clipy logi-options-plus
+brew install --cask clipy logi-options-plus disk-inventory-x
 
 info '🎧 Installing entertainment software'
 brew install --cask spotify
