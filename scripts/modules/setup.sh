@@ -39,6 +39,12 @@ info 'Setting git config values'
 git config --global user.name "Felix Geißler"
 git config --global user.email "felix.geissler.94+dev@gmail.com"
 git config --global core.editor "code --wait"
+git config --global pull.rebase true
+git config --global rebase.autosquash true
+git config --global rebase.updateRefs true
 git config --global init.defaultBranch "main"
 git config --global commit.gpgsign true
 git config --global pager.branch false
+git config --global rerere.enabled true
+git config --global rerere.autoUpdate true
+git config --global status.short true
