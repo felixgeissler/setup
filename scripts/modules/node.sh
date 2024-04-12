@@ -14,4 +14,4 @@ info 'Installing latest Yarn version'
 volta install yarn
 
 info 'Installing global node packages'
-npm i -g gitmoji-cli
+npm i -g gitmoji-cli @angular/cli @ionic/cli
