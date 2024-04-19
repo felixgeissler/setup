@@ -30,7 +30,7 @@ info '🪛 Installing utility tools'
 brew install --cask clipy logi-options-plus disk-inventory-x
 
 info '🎧 Installing entertainment software'
-brew install --cask spotify
+brew install --cask spotify rekordbox
 
 # Remove outdated versions from the cellar.
 brew cleanup
