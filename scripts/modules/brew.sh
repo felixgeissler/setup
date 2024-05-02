@@ -27,7 +27,7 @@ brew install micro
 
 # Install usefull tools
 info 'Installing usefull tools'
-brew install gh htop telnet wget imagemagick tree ffmpeg 
+brew install gh htop telnet wget imagemagick tree ffmpeg id3lib
 
 # Install other useful binaries.
 info 'Installing other useful binaries'
