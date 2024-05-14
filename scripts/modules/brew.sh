@@ -25,6 +25,10 @@ brew install grep openssh php composer jq
 info 'Installing alternative terminal-based editor'
 brew install micro
 
+# Install android platform tools (e.g. adb)
+info 'Installing android platform tools'
+brew install android-platform-tools
+
 # Install usefull tools
 info 'Installing usefull tools'
 brew install gh htop telnet wget imagemagick tree ffmpeg id3lib
