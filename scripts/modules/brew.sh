@@ -31,7 +31,7 @@ brew install android-platform-tools
 
 # Install usefull tools
 info 'Installing usefull tools'
-brew install gh htop telnet wget imagemagick tree ffmpeg id3lib gawk
+brew install gh htop telnet wget imagemagick tree ffmpeg id3lib gawk fd bat
 
 # Install other useful binaries.
 info 'Installing other useful binaries'

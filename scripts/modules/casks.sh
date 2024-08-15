@@ -12,7 +12,7 @@ info '🛡️ Installing security software'
 brew install --cask 1password
 
 info '👩‍💻 Installing development software'
-brew install --cask visual-studio-code tableplus insomnia docker github hyper
+brew install --cask visual-studio-code tableplus bruno docker github hyper
 
 info '💻 Installing web browsers'
 brew install --cask brave firefox homebrew/cask-versions/firefox-developer-edition google-chrome
