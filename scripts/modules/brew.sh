@@ -19,7 +19,7 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
 # Install more GNU utils and other useful binaries.
 info 'Installing GNU versions of grep, openssh, php, composer and jq'
-brew install grep openssh php composer jq
+brew install grep openssh php composer
 
 # Install micro
 info 'Installing alternative terminal-based editor'
@@ -31,7 +31,7 @@ brew install android-platform-tools
 
 # Install usefull tools
 info 'Installing usefull tools'
-brew install gh htop telnet wget imagemagick tree ffmpeg id3lib gawk fd bat derailed/k9s/k9s
+brew install gh htop telnet wget imagemagick tree ffmpeg id3lib gawk fd bat derailed/k9s/k9s jq eza bat tealdeer
 
 # Install other useful binaries.
 info 'Installing other useful binaries'
