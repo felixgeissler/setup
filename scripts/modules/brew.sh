@@ -31,7 +31,7 @@ brew install android-platform-tools
 
 # Install usefull tools
 info 'Installing usefull tools'
-brew install gh htop telnet wget imagemagick tree ffmpeg id3lib gawk fd bat derailed/k9s/k9s jq eza bat tealdeer
+brew install gh htop telnet wget imagemagick tree ffmpeg id3lib gawk fd bat derailed/k9s/k9s jq eza bat tealdeer yq
 
 # Install other useful binaries.
 info 'Installing other useful binaries'
@@ -65,6 +65,9 @@ brew install hashicorp/tap/boundary fzf jq
 
 # Install AI tools
 brew install ollama
+
+# Install Rust
+brew install rust
 
 # Install google web fonts (also not a brew package... but whatever!)
 if [[ $(test -f /Library/Fonts/Roboto-Black.ttf) ]]; then
