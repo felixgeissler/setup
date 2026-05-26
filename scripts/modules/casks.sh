@@ -9,7 +9,7 @@ heading 'Running casks.sh'
 info "This script will install casks (macOS Applictions) via Homebrew."
 
 info '🛡️ Installing security software'
-brew install --cask 1password keepassxc
+brew install --cask 1password keepassxc zap
 
 info '👩‍💻 Installing development software'
 brew install --cask visual-studio-code tableplus bruno docker github hyper
