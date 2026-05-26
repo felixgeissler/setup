@@ -12,19 +12,19 @@ info '🛡️ Installing security software'
 brew install --cask 1password keepassxc zap
 
 info '👩‍💻 Installing development software'
-brew install --cask visual-studio-code tableplus bruno docker github hyper
+brew install --cask zed tableplus bruno docker github hyper obsidian
 
 info '💻 Installing web browsers'
 brew install --cask brave firefox homebrew/cask-versions/firefox-developer-edition google-chrome
 
 info '🎨 Installing design software'
-brew install --cask affinity-designer affinity-photo
+brew install --cask affinity
 
 info '💬 Installing chat and teamwork software'
 brew install --cask microsoft-teams onedrive google-drive discord signal nextcloud
 
 info '📝 Installing office tools'
-brew install --cask microsoft-outlook microsoft-word microsoft-excel sipgate-softphone
+brew install --cask microsoft-outlook microsoft-word microsoft-excel
 
 info '🪛 Installing utility tools'
 brew install --cask clipy logi-options-plus disk-inventory-x raycast hiddenbar

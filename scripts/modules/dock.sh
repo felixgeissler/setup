@@ -12,26 +12,24 @@ defaults write com.apple.dock persistent-apps -array
 for APP_NAME in "Messages" \
   "Microsoft Teams" \
   "Microsoft Outlook" \
-  "Brave" \
-  "Google Chrome" \
   "Firefox Developer Edition" \
   "1Password" \
-  "Visual Studio Code" \
+  "Zed" \
+  "Obsidian" \
   "Hyper" \
-  "Insomnia" \
+  "Bruno" \
   "Tableplus" \
-  "Affinity Photo 2" \
-  "Affinity Designer 2"; do
+  "Affinity"; do
 
 # Add Spacer to the Dock
 if [[ $APP_NAME == "" ]]; then
   defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
 
 # Add System App (Calendar) to the Dock
-elif [[ 
-  $APP_NAME == "Calendar" || 
-  $APP_NAME == "Home" || 
-  $APP_NAME == "Notes" || 
+elif [[
+  $APP_NAME == "Calendar" ||
+  $APP_NAME == "Home" ||
+  $APP_NAME == "Notes" ||
   $APP_NAME == "Messages"
 ]]; then
   defaults write com.apple.dock persistent-apps -array-add "<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/System/Applications/${APP_NAME}.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>"

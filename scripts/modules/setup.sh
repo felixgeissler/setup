@@ -38,7 +38,7 @@ brew upgrade
 info 'Setting git config values'
 git config --global user.name "Felix Geißler"
 git config --global user.email "felix.geissler.94+dev@gmail.com"
-git config --global core.editor "code --wait"
+git config --global core.editor "zed --wait"
 git config --global pull.rebase true
 git config --global rebase.autosquash true
 git config --global rebase.updateRefs true
